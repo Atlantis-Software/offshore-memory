@@ -1,7 +1,13 @@
 {
-  "name": "sails-memory",
-  "version": "0.10.5",
-  "description": "Non-persistent in-memory adapter for Sails.js / Waterline",
+  "name": "offshore-memory",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "name": "Alexandre Tiertant",
+      "github": "https://github.com/atiertant"
+    }
+  ],  
+  "description": "Non-persistent in-memory adapter for Offshore",
   "main": "lib/adapter.js",
   "scripts": {
     "test": "node test/runner.js",
@@ -9,34 +15,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails-memory.git"
+    "url": "git://github.com/Atlantis-Software/offshore-memory.git"
   },
   "keywords": [
-    "waterline",
+    "offshore",
     "database",
-    "memory",
-    "sails",
-    "sails.js",
-    "sailsjs"
-  ],
-  "author": "Mike McNeil",
-  "contributors": [
-    {
-      "name": "Cody Stoltman"
-    }
+    "memory"
   ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
     "lodash": "~2.4.1",
-    "waterline-criteria": "~0.10.2",
-    "waterline-errors": "~0.10.0",
+    "offshore-criteria": "~0.0.1",
+    "offshore-errors": "~0.0.1",
     "async": "~0.2.9",
     "waterline-cursor": "~0.0.3"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
-    "waterline-adapter-tests": "~0.10.0",
+    "offshore-adapter-tests": "~0.10.0",
     "captains-log": "~0.11.1"
   },
   "waterlineAdapter": {
@@ -51,5 +48,18 @@
       "unique",
       "autoIncrement.sequential"
     ]
-  }
+  },
+  "offshoreAdapter": {
+    "offshoreVersion": "~0.0.1",
+    "interfaces": [
+      "semantic",
+      "queryable",
+      "associations"
+    ],
+    "features": [
+      "cross-adapter",
+      "unique",
+      "autoIncrement.sequential"
+    ]
+  }  
 }
