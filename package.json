@@ -1,6 +1,6 @@
 {
   "name": "offshore-memory",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "contributors": [
     {
       "name": "Alexandre Tiertant",
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "mocha": "~1.13.0",
-    "offshore-adapter-tests": "~0.10.0",
+    "offshore-adapter-tests": "~0.0.3",
     "captains-log": "~0.11.1"
   },
   "waterlineAdapter": {
