@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "mocha": "2.4.5",
-    "offshore-adapter-tests": "Atlantis-Software/offshore-memory",
+    "offshore-adapter-tests": "Atlantis-Software/offshore-adapter-tests",
     "captains-log": "0.11.11"
   },
   "waterlineAdapter": {
