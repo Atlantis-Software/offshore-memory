@@ -26,14 +26,14 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "lodash": "3.10.1",
-    "offshore-criteria": "~0.0.1",
+    "offshore-criteria": "~0.0.2",
     "offshore-errors": "~0.0.1",
     "async": "1.5.2",
     "waterline-cursor": "0.0.6"
   },
   "devDependencies": {
-    "mocha": "~1.13.0",
-    "offshore-adapter-tests": "~0.0.3",
+    "mocha": "2.4.5",
+    "offshore-adapter-tests": "Atlantis-Software/offshore-memory",
     "captains-log": "0.11.11"
   },
   "waterlineAdapter": {
