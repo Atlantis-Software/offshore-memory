@@ -1,6 +1,6 @@
 {
   "name": "offshore-memory",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "contributors": [
     {
       "name": "Alexandre Tiertant",
@@ -54,7 +54,8 @@
     "interfaces": [
       "semantic",
       "queryable",
-      "associations"
+      "associations",
+      "datastore"
     ],
     "features": [
       "cross-adapter",
