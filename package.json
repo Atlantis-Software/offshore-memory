@@ -25,7 +25,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "lodash": "3.10.1",
+    "lodash": "4.17.2",
     "offshore-criteria": "~0.0.2",
     "offshore-errors": "~0.0.1",
     "async": "1.5.2",
