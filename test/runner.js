@@ -15,7 +15,6 @@
 
 var util = require('util');
 var mocha = require('mocha');
-var log = require('captains-log')();
 var TestRunner = require('offshore-adapter-tests');
 var Adapter = require('../lib/adapter');
 
@@ -40,9 +39,9 @@ try {
 
 
 
-log.info('Testing `' + package.name + '`, a Offshore adapter.');
-log.info('Running `offshore-adapter-tests` against ' + interfaces.length + ' interfaces...');
-log.info('( ' + interfaces.join(', ') + ' )');
+console.log('Testing `' + package.name + '`, a Offshore adapter.');
+console.log('Running `offshore-adapter-tests` against ' + interfaces.length + ' interfaces...');
+console.log('( ' + interfaces.join(', ') + ' )');
 console.log();
 
 
