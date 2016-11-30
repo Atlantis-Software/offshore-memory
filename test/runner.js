@@ -78,4 +78,7 @@ new TestRunner({
   features: features,
 
   // Most databases implement 'semantic' and 'queryable'.
+  
+  // Return code non zero if any test fails
+  failOnError: true
 });
