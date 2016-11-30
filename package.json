@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "mocha": "3.2.0",
-    "offshore-adapter-tests": "Atlantis-Software/offshore-adapter-tests",
+    "offshore-adapter-tests": "Atlantis-Software/offshore-adapter-tests"
   },
   "waterlineAdapter": {
     "waterlineVersion": "~0.10.0",
