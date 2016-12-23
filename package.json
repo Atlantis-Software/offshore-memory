@@ -26,7 +26,7 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "lodash": "4.17.2",
-    "offshore-criteria": "~0.0.2",
+    "offshore-criteria": "Atlantis-Software/offshore-criteria",
     "offshore-errors": "~0.0.1",
     "async": "1.5.2",
     "waterline-cursor": "0.0.6"
