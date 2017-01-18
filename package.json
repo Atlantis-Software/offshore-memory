@@ -25,7 +25,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "lodash": "4.17.2",
+    "lodash": "4.17.4",
     "offshore-criteria": "Atlantis-Software/offshore-criteria",
     "offshore-errors": "~0.0.1",
     "async": "1.5.2",
