@@ -8,3 +8,5 @@ ssl
 nbproject
 .offshore
 npm-debug.log
+.nyc_output/
+package-lock.json
